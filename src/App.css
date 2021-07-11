@@ -1,0 +1,18 @@
+.conteudo {
+  display: flex;
+}
+
+:root {
+  --primaria: #58a4b0;
+  --secundaria: #f8a155;
+  --secundaria-ativa: #ff77007c;
+  --fundo: #ffffff;
+  --fundo-detalhes: #ececec;
+  --texto-geral: #272727;
+}
+
+
+.conteudo-principal {
+  flex-grow: 3;
+  
+}

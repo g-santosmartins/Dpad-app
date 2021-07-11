@@ -85,6 +85,8 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  background: #dadada;
+  font-size: 15px;
 }
 
 /* make sure to set some focus styles for accessibility */

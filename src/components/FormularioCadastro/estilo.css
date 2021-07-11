@@ -14,16 +14,32 @@
   background-color: var(--fundo-detalhes);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
+  border-radius: 20px;
 }
 
 .form-cadastro_submit {
   align-self: flex-end;
-  width: 30%;
   background-color: var(--secundaria);
-  color: white;
+  color: var(--texto-geral);
   font-weight: 400;
+  border-radius: 50px;
+  align-self: center;
+  height: 50px;
+
+  padding: 0 32px;
 }
 
 .form-cadastro_submit:active {
   background-color: var(--secundaria-ativa);
+}
+
+.logo {
+  align-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.background-logo {
+  background: #242342;
+
 }

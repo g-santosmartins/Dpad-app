@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" fill="#000000" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <path d="m0 0h24v24h-24z" fill="none"/>
+ <text x="45.088863" y="-24.467508" font-family="'Noto Sans Tai Le'" font-size="20px" stroke-width=".5" style="line-height:1.25" xml:space="preserve"><tspan x="45.088863" y="-24.467508" stroke-width=".5"/></text>
+ <g transform="matrix(.47752 0 0 .47752 2.6878 -.19899)">
+  <g transform="translate(-2.003 -.077601)">
+   <text transform="matrix(.91108 -.41223 -.41223 -.91108 0 0)" x="-6.1732702" y="-8.2966909" fill="#ff7800" font-family="sans-serif" font-size="20px" stroke-width=".5" style="line-height:1.25" xml:space="preserve"><tspan x="-6.1732702" y="-8.2966909" fill="#ff7800" stroke-width=".5">D</tspan></text>
+   <text x="15.13886" y="13.853138" font-family="'Noto Sans Tai Le'" font-size="5.3333px" stroke-width=".5" style="line-height:1.25" xml:space="preserve"><tspan x="15.13886" y="13.853138" fill="#9a9996" font-size="5.3333px" stroke-width=".5">pad</tspan></text>
+   <text x="7.7766418" y="24.495396" font-family="'Noto Sans Tai Le'" font-size="2.9352px" stroke-width=".55036" style="line-height:1.25" xml:space="preserve"><tspan x="7.7766418" y="24.495396" fill="#ff7800"> open source</tspan><tspan x="7.7766418" y="28.238148" fill="#9a9996"> to-do app</tspan></text>
+  </g>
+ </g>
+</svg>

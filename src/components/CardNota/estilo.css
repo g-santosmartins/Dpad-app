@@ -1,7 +1,8 @@
 .card-nota {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
+  align-self: flex-start;
   justify-content: space-between;
   background-color: var(--fundo-detalhes);
   border-radius: 4px;
@@ -33,4 +34,13 @@
   margin-right: 12px;
   background: #fffcd9;
 
+}
+
+.card-nota_categoria {
+  font-size: 1em;
+  margin-right: 10px;
+  background: #fffcd9;
+  color: var(--secundaria);
+  text-justify: auto;
+  font-weight: 400;
 }

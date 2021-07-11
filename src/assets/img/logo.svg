@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="150" height="150" fill="#000000" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <rect x="-.042592" y=".098293" width="15.968" height="15.955" fill="#242342" stroke="#000" stroke-width=".12599" style="paint-order:stroke fill markers"/>
  <path d="m0 0h24v24h-24z" fill="none"/>
  <text x="45.088863" y="-24.467508" font-family="'Noto Sans Tai Le'" font-size="20px" stroke-width=".5" style="line-height:1.25" xml:space="preserve"><tspan x="45.088863" y="-24.467508" stroke-width=".5"/></text>
  <g transform="matrix(.47752 0 0 .47752 2.6878 -.19899)">

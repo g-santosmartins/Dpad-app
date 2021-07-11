@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" fill="#000000" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <rect x="-.0010069" y="-.0010069" width="15.977" height="15.958" fill="#242342" stroke="#000" stroke-width=".10465" style="paint-order:stroke fill markers"/>
+ <path d="m0 0h24v24h-24z" fill="none"/>
+ <text x="45.088863" y="-24.467508" font-family="'Noto Sans Tai Le'" font-size="20px" stroke-width=".5" style="line-height:1.25" xml:space="preserve"><tspan x="45.088863" y="-24.467508" stroke-width=".5"/></text>
+ <g transform="matrix(.61005 0 0 .61005 1.6048 .32571)">
+  <g transform="translate(-2.003 -.077601)" stroke-width=".5">
+   <text transform="matrix(.91108 -.41223 -.41223 -.91108 0 0)" x="-6.1732702" y="-8.2966909" fill="#ff7800" font-family="sans-serif" font-size="20px" style="line-height:1.25" xml:space="preserve"><tspan x="-6.1732702" y="-8.2966909" fill="#ff7800" stroke-width=".5">D</tspan></text>
+   <text x="15.13886" y="13.853138" font-family="'Noto Sans Tai Le'" font-size="5.3333px" style="line-height:1.25" xml:space="preserve"><tspan x="15.13886" y="13.853138" fill="#9a9996" font-size="5.3333px" stroke-width=".5">pad</tspan></text>
+  </g>
+ </g>
+</svg>

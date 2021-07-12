@@ -5,7 +5,14 @@ export default class ArrayDeNotas{
     }
 
     adicionarNota(titulo, texto, categoria){
+
+        if(!titulo && !texto){
+            titulo = 'Sem título'
+            texto = 'Vazio'
+        }
+        
         const novaNota = new Nota(titulo, texto, categoria);
+
         this.notas.push(novaNota);
         this.notificar();
     }
@@ -35,4 +42,6 @@ class Nota{
         this.texto = texto;
         this.categoria = categoria;
     }
+
+    titulo = 'Padrão'
 }

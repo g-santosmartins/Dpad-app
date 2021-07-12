@@ -19,8 +19,8 @@ export default class Categorias{
             func(this.categorias);
         } );
     }
-    adicionarCategoria(novaCaegoria){
-        this.categorias.push(novaCaegoria);
+    adicionarCategoria(novaCategoria){
+        this.categorias.push(novaCategoria);
         this.notificar();
     }
 }

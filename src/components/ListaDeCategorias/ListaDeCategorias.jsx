@@ -2,27 +2,42 @@ import React, { Component } from "react";
 import "./estilo.css";
 class ListaDeCategorias extends Component {
 
-  constructor(){
+  constructor() {
     super();
-    this.state = {categorias:[]}
+    this.valorCategoria = ''
+    this.state = { categorias: [] }
     this._novasCategorias = this._novasCategorias.bind(this);
   }
-  componentDidMount(){
+  componentDidMount() {
     this.props.categorias.inscrever(this._novasCategorias);
   }
 
-  componentWillUnmount(){
+  componentWillUnmount() {
     this.props.categorias.desinscrever(this._novasCategorias);
   }
-  
-  _novasCategorias(categorias){
-   this.setState({...this.state,categorias})
+
+  _novasCategorias(categorias) {
+    this.setState({ ...this.state, categorias })
+  }
+
+  _handleSubmitButton() {
+    this.props.adicionarCategoria(this.valorCategoria)
+  }
+
+  _handleGetInputChanges(e) {
+    this.valorCategoria = e.target.value;
+    return this.valorCategoria
   }
 
   _handleEventoInput(e) {
-    if (e.key == "Enter") {
-      let valorCategoria = e.target.value;
-      this.props.adicionarCategoria(valorCategoria);
+
+    if (e.key === "Enter") {
+
+      if (!this.valorCategoria) {
+        alert('Você não pode criar uma categoria vazia')
+        return;
+      }
+      this.props.adicionarCategoria(this.valorCategoria);
     }
   }
   render() {
@@ -37,12 +52,22 @@ class ListaDeCategorias extends Component {
             );
           })}
         </ul>
+        <form action="" className="lista-categorias_input">
+
+        </form>
         <input
           type="text"
           className="lista-categorias_input"
           placeholder="Adicionar Categoria"
           onKeyUp={this._handleEventoInput.bind(this)}
+          onChange={this._handleGetInputChanges.bind(this)}
         />
+
+        <button
+          onClick={this._handleSubmitButton.bind(this)}
+          type="button">Adicionar
+        </button>
+
       </section>
     );
   }

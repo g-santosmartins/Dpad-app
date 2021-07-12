@@ -1,15 +1,18 @@
 
 .lista-notas {
-  flex-grow: 3;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20;
   list-style-type: none;
   padding-left: 24px;
   padding-top: 24px;
 }
 .lista-notas_item {
   margin: 12px;
+
+/* preventing fixed box */
   max-width: 240px;
-  max-height: 400px;
+  /* max-height: 400px; */
+
   display: inline;
 }

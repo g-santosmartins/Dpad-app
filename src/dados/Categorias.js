@@ -23,4 +23,5 @@ export default class Categorias{
         this.categorias.push(novaCategoria);
         this.notificar();
     }
+
 }

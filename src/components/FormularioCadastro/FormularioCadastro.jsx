@@ -13,7 +13,7 @@ class FormularioCadastro extends Component {
   }
 
   componentDidMount(){
-      this.props.categorias.inscrever( this._novasCategorias);
+    this.props.categorias.inscrever( this._novasCategorias);
     
   }
 

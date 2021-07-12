@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./estilo.css";
+import {ReactComponent as LogoBrancaSVG} from '../../assets/img/x.svg'
+
 class ListaDeCategorias extends Component {
 
   constructor() {
@@ -21,7 +23,12 @@ class ListaDeCategorias extends Component {
   }
 
   _handleSubmitButton() {
+    if (!this.valorCategoria) {
+      alert('Você não pode criar uma categoria vazia')
+      return;
+    }
     this.props.adicionarCategoria(this.valorCategoria)
+    
   }
 
   _handleGetInputChanges(e) {
@@ -48,13 +55,12 @@ class ListaDeCategorias extends Component {
             return (
               <li key={index} className="lista-categorias_item">
                 {categoria}
+                <LogoBrancaSVG className="lista-categorias_icone"/>
               </li>
             );
           })}
         </ul>
-        <form action="" className="lista-categorias_input">
 
-        </form>
         <input
           type="text"
           className="lista-categorias_input"
@@ -64,6 +70,7 @@ class ListaDeCategorias extends Component {
         />
 
         <button
+          className="form_submit"
           onClick={this._handleSubmitButton.bind(this)}
           type="button">Adicionar
         </button>

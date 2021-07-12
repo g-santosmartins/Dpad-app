@@ -11,23 +11,29 @@
   justify-content: space-evenly;
 }
 .lista-categorias_item{
+  display: flex;
   background-color: var(--secundaria);
-  color: white;
-  padding: 8px 8px;
+  padding: 5px;
+
+  color: black;
   border-radius: 5px;
   align-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista-categorias_icone {
+  align-self: center;
+  align-content: center;
 }
 .lista-categorias_input{
   margin-right: 20px;
   border-radius: 20px;
   
   padding: 5px;
-
-
-
+  border: none;
 }
+
 .lista-categorias_submit{
   margin: 0;
   align-self: flex-end;
@@ -39,4 +45,22 @@
   border: none;
 
   padding: 0 32px;
+}
+
+.form_submit {
+  background-color: #242342;
+  color: white;
+  font-weight: 400;
+  border-radius: 50px;
+  align-self: center;
+  height: 30px;
+  padding: auto;
+  border: none;
+
+
+  padding: 0 32px;
+}
+
+.form_submit:active {
+  background-color: var(--secundaria-ativa);
 }

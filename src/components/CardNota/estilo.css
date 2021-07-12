@@ -1,21 +1,16 @@
 .card-nota {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  align-self: flex-start;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr;
   background-color: var(--fundo-detalhes);
   border-radius: 4px;
-  flex-wrap: wrap;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   padding: 16px;
   background: #fffcd9;
 
-
 }
-
 .card-nota_cabecalho {
   font-size: 1.1em;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,11 +22,13 @@
   margin-top: 8px;
   font-size: 1em;
   background: #fffcd9;
-  flex-wrap: wrap;
-
+  word-break: break-word;
+  text-align: center;
 }
 
 .card-nota_titulo {
+  
+  display: grid;
   font-size: 1.2em;
   margin-right: 12px;
   background: #fffcd9;
@@ -43,6 +40,5 @@
   margin-right: 10px;
   background: #fffcd9;
   color: var(--secundaria);
-  text-justify: auto;
   font-weight: 400;
 }
